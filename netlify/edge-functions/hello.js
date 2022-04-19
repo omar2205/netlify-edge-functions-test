@@ -5,7 +5,7 @@ export default async () => {
 
   await client.connect()
   
-  const res = await client.queryArray(`INSERT INTO logs (note) VALUES ('HellO)`)
+  const res = await client.queryArray(`INSERT INTO logs (note) VALUES ('HellO')`)
 
   let r = {
     res,
